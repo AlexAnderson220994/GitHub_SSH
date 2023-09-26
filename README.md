@@ -30,6 +30,7 @@
 - Click on top right icon (which usually takes you to your profile page).
 - Click on `settings`
 - Navigate to the `SSH and GPG keys` section on the left hand side of the page.
+![sh.1.jpg](..%2F..%2F..%2F..%2FOneDrive%20-%20Sparta%20Global%2FPictures%2FSSH%2Fsh.1.jpg)
 - Click on `New SSH key` in the SSH keys (make sure there isn't one there already).
 - Give the key a descriptive name.
 - Return to the GitBash terminal you are using. This is where the Public key needs to be copied from the .ssh directory to be added to GitBash.
@@ -38,6 +39,7 @@
 - Copy the output generated above **(Make sure there is no WHITESPACE at the end)**.
 - Paste it into GitHub.
 - Public SSH key should now be linked to GitHub.
+![sh.2.jpg](..%2F..%2F..%2F..%2FOneDrive%20-%20Sparta%20Global%2FPictures%2FSSH%2Fsh.2.jpg)
 
 ### Creating an SSH agent
 
@@ -54,6 +56,8 @@
 - Do a `git init` as normal.
 - Link the repos using `git remote set-url origin git@github.com:repo_name_here.git`
 
+### TROUBLESHOOTING
 
+#### Permission Denied: Could not read from remote repository.
 
 
